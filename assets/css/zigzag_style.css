@@ -1,0 +1,58 @@
+.zigzag-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Dua kolom */
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.zigzag-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Transparan */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.zigzag-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.zigzag-item p {
+    flex: 1;
+}
+
+/* Menentukan posisi setiap item secara spesifik */
+.item-1 {
+    grid-column: 1;
+    /* Kolom 1 */
+    grid-row: 1;
+    /* Baris 1 */
+}
+
+.item-2 {
+    grid-column: 2;
+    /* Kolom 2 */
+    grid-row: 2;
+    /* Baris 2 */
+}
+
+.item-3 {
+    grid-column: 1;
+    /* Kolom 1 */
+    grid-row: 3;
+    /* Baris 3 */
+}
+
+.item-4 {
+    grid-column: 2;
+    /* Kolom 2 */
+    grid-row: 4;
+    /* Baris 4 */
+}

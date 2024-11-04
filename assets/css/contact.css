@@ -1,0 +1,116 @@
+/* styles.css */
+.contact-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1,
+.contact-container h2 {
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comments {
+    max-height: 200px;
+    /* Sesuaikan tinggi kontainer */
+    overflow-y: scroll;
+    /* Tambahkan scroll vertikal */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h1,
+h2,
+label {
+    color: aquamarine;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 100px;
+    /* Atur lebar label */
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    flex: 1;
+    /* Membuat input dan textarea menyesuaikan lebar */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    /* Hanya bisa diubah vertikal */
+    min-height: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

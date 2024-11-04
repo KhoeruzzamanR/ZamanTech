@@ -1,0 +1,104 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling untuk gambar */
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling untuk deskripsi */
+.container .description {
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+/* Styling untuk deskripsi */
+.container .description h2 {
+    margin-top: 0;
+}
+
+/* Styling Image Slider */
+.carousel-item {
+    display: flex;
+    /* Make each carousel item a flex container */
+    justify-content: center;
+    /* Center the image horizontally */
+    align-items: center;
+    /* Center the image vertically */
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to fill the container */
+    height: 100%;
+    /* Fixed height */
+    object-fit: cover;
+    /* Ensure images cover the entire area */
+    object-position: center;
+    /* Center the image */
+    /* border-radius: 10px; */
+}
+
+/* Style for the image slider */
+.carousel-inner {
+    height: max-content;
+    width: max-content;
+    max-width: 100%;
+    /* Max width for the slider */
+    margin: auto;
+    /* Center the slider horizontally */
+}
+
+.carousel-item img {
+    width: 600px;
+    /* Make images take full width */
+    height: 300px;
+    /* Set height to 70% of the viewport height */
+    object-fit: cover;
+    /* Make sure the image covers the entire area */
+    object-position: center;
+    /* Center the image */
+}
+
+/* Container for image and description */
+.row .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content horizontally */
+    text-align: center;
+    /* Center text */
+    margin-top: 20px;
+    /* Add some top margin */
+}
+
+.row .container img {
+    width: 60%;
+    /* Set image width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.card {
+    margin: 20px auto;
+    /* Center the card */
+    max-width: 400px;
+    /* Maximum width of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add some shadow for depth */
+}
+
+.card img {
+    object-fit: cover;
+    /* Ensure the image covers the area without distortion */
+    height: 200px;
+    /* Fixed height for the image */
+}
